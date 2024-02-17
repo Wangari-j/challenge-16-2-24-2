@@ -9,7 +9,7 @@ class Calculator:
         self.num2 = num2
 
     def addCalc(self):
-        #if we ant to accesss class attribute in class methods, we have to prefix the attribute with -self. e.g self.num1
+        #if we want to accesss class attribute in class methods, we have to prefix the attribute with -self. e.g self.num1
 
         result = self.num1 + self.num2
         return result
